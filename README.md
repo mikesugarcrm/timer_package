@@ -1,6 +1,6 @@
 # The Timer Field
 
-###A "Timer" field counts "down to" or "up from" a provided date field.
+### A "Timer" field counts "down to" or "up from" a provided date field.
 
 The timer will show the days, hours, minute and seconds since, or until, a given date field. 
 
@@ -8,7 +8,7 @@ After installing this package, you'll see need to add one or more timer fields t
 
 To add the field to a view, you'll need to add settings like these to a view controller:
 
-###To count up from (i.e. to show how long it's been since) the record was created, you set the 'field_start_from' property:
+### To count up from (i.e. to show how long it's been since) the record was created, you set the 'field_start_from' property:
 ```
     array (
        'name' => 'countup', // you can provide any name you like
@@ -18,7 +18,7 @@ To add the field to a view, you'll need to add settings like these to a view con
        'toolip' => 'Elapsed Time',
        ),
 ```
-###To count down to (i.e. to show how long until) the due date, you set the 'field_start_to' property:
+### To count down to (i.e. to show how long until) the due date, you set the 'field_start_to' property:
 ```
 
     array (
