@@ -6,7 +6,7 @@ The timer will show the days, hours, minute and seconds since, or until, a given
 
 After installing this package, you'll see need to add one or more timer fields to a given view. 
 
-To add the field to a view, you'll need to add settings like these to a view controller:
+To add the field to a view, you'll need to add settings like these to a view defintion:
 
 ### To count up from (i.e. to show how long it's been since) the record was created, you set the 'field_start_from' property:
 ```
